@@ -1,0 +1,27 @@
+div {
+  background-color: aquamarine;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div:hover {
+  background-color: goldenrod;
+}
+
+.box{
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+#item, p {
+  color: blue;
+}
+
+div p {
+  background-color: yellow;
+  color: fuchsia;
+}
+
+span {
+  font-size: 30px;
+}
