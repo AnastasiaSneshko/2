@@ -1,52 +1,33 @@
-a[href] {
-  background-color: aquamarine;
+p { 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: medium;
+  line-height: 1.4em;
+  letter-spacing: 0.05em;
+  text-align: justify;
+  color: green;
 }
 
-a[target=_blank] {
-  background-color: greenyellow;
+i {
+  font-size: 5em;
+  color: gray;
+  margin-right: 0.3em;
 }
 
-a:hover {
-  background-color: red;
+#facebook:hover {
+  color: #3b5998;
 }
 
-h1::after {
-  content: " - Hello World!";
-}
-h1::first-letter {
-  color: blue;
-  font-size: 30px;
+#youtube:hover {
+  color: #c4302b;
 }
 
-nav ul {
-  list-style: none;
-  background-color: khaki;
+#instagram:hover {
+  background: linear-gradient(150deg, rgba(64,93,236,1) 0%, rgba(225,48,108,1) 50%, rgba(255,251,128,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-ul li {
-  display: inline-block;
-  border: 1px dotted grey;
-  width: 100px;
-  height: 20px;
-  margin: 5px;
-}
-
-#one, #two, #three {
-  border-width: 30px;
-  border-style: solid;
-  border-color: black;
-  height: 50px;
-  width: 50px;
-  margin-bottom: 20px;
-}
-
-#two {
-  border-color: red green orange transparent;
-  border-radius: 50%;
-}
-
-#three {
-  border-color: red green orange black;
-  height: 1px;
-  width: 1px;
+#pinterest:hover {
+  color: #bd081c;
 }
