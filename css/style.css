@@ -1,0 +1,19 @@
+div{
+  background-color: aqua;
+  width: 300px;
+  overflow: hidden;
+}
+p{
+  width: 300px;
+}
+@media only screen and (max-width: 600px) {
+  div{
+    background-color: red;
+  }
+}
+
+div img{
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
