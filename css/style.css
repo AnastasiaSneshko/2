@@ -1,73 +1,88 @@
-div {
-	position: relative;
-	width: 200px;
-	height: 200px;
-	margin: 50px;
-	border: 5px solid gray;
-	box-shadow: 0 0 0 5px red, 0 0 0 10px yellow;
+li::before {
+	content: '\25ba';
+	padding-right: 10px;
+  color: purple;
 }
-
-.text {
-	font-size: 30px;
-	text-shadow: 5px 5px 5px green;
-}
-
-.gradient {
-	transform: rotate(45deg);
-	transform-origin: top center;
-	background: linear-gradient(to top right, green, yellow, blue);
+li {
+	list-style-type: none;
 }
 
 .box {
-	transform: translate(50px, 50px) rotate(45deg) scale(1,1) skew(30deg);
+	width: 80%;
+	height: 200px;
+	margin: 0 auto;
+	background-color: rebeccapurple;
+	border-radius: 15px;
+	border-left: 10px solid orange;
+	border-right: 10px solid orange;
+	padding: 15px;
 }
 
-.transform {
-	width: 250px;
-	height: 100px;
-	background: linear-gradient(45deg, yellow, blue);
-	transform-origin: top center;
-	transform: rotate(-25deg);
+.triangle {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: 40px solid transparent;
 }
 
-.anime {
-	transition: width 3s;
+.red-left {
+	border-bottom: 60px solid red;
+}
+.red-right {
+	border-top: 60px solid red;
+}
+.green-left {
+	border-left: 50px solid greenyellow;
+}
+.green-right {
+	border-right: 50px solid greenyellow;
+}
+.yellow-left {
+	border-bottom: 40px solid yellow; 
+	border-left: 40px solid yellow;
+}
+.yellow-right {
+	border-bottom: 40px solid yellow; 
+	border-right: 40px solid yellow;
+}
+.blue-left {
+	border-top: 40px solid blue; 
+	border-left: 40px solid blue;
+}
+.blue-right {
+	border-top: 40px solid blue; 
+	border-right: 40px solid blue;
 }
 
-.anime:hover {
-	width: 400px;
+.shadow {
+	background-color: #6e838c;
+	width: 450px;
+	height: 200px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oi', cursive;
+	font-size: 50px;
+	color: #043e53;
+	text-shadow: 10px 10px 10px black;
 }
 
-@keyframes clr {
-	from {
-		background: red;
-	}
-
-	to {
-		background: greenyellow;
-	}
-}
-
-@keyframes clr2 {
+@keyframes rotation {
 	0% {
-		background: yellow;
-	}
-	25% {
-		background: orange;
-	}
-	55% {
-		background: orangered;
-	}
-	85% {
-		background: orange;
+		transform:rotate(0deg);
 	}
 	100% {
-		background: yellow;
+		transform:rotate(360deg);
 	}
 }
 
 .animation {
-	animation-name: clr2; 
-	animation-duration: 3s;
+	width: 200px;
+	height: 200px;
+	background-color: darkorchid;
+	animation-name: rotation;
+	animation-duration: 1s;
 	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
