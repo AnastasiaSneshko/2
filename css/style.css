@@ -1,19 +1,73 @@
-div{
-  background-color: aqua;
-  width: 300px;
-  overflow: hidden;
-}
-p{
-  width: 300px;
-}
-@media only screen and (max-width: 600px) {
-  div{
-    background-color: red;
-  }
+div {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 50px;
+	border: 5px solid gray;
+	box-shadow: 0 0 0 5px red, 0 0 0 10px yellow;
 }
 
-div img{
-  width: 300px;
-  height: 200px;
-  object-fit: contain;
+.text {
+	font-size: 30px;
+	text-shadow: 5px 5px 5px green;
+}
+
+.gradient {
+	transform: rotate(45deg);
+	transform-origin: top center;
+	background: linear-gradient(to top right, green, yellow, blue);
+}
+
+.box {
+	transform: translate(50px, 50px) rotate(45deg) scale(1,1) skew(30deg);
+}
+
+.transform {
+	width: 250px;
+	height: 100px;
+	background: linear-gradient(45deg, yellow, blue);
+	transform-origin: top center;
+	transform: rotate(-25deg);
+}
+
+.anime {
+	transition: width 3s;
+}
+
+.anime:hover {
+	width: 400px;
+}
+
+@keyframes clr {
+	from {
+		background: red;
+	}
+
+	to {
+		background: greenyellow;
+	}
+}
+
+@keyframes clr2 {
+	0% {
+		background: yellow;
+	}
+	25% {
+		background: orange;
+	}
+	55% {
+		background: orangered;
+	}
+	85% {
+		background: orange;
+	}
+	100% {
+		background: yellow;
+	}
+}
+
+.animation {
+	animation-name: clr2; 
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
 }
