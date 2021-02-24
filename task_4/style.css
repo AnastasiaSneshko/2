@@ -1,0 +1,13 @@
+.shadow {
+	background-color: #6e838c;
+	width: 450px;
+	height: 200px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oi', cursive;
+	font-size: 50px;
+	color: #043e53;
+	text-shadow: 10px 10px 10px black;
+}

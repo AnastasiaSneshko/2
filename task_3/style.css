@@ -1,0 +1,42 @@
+.triangle {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: 40px solid transparent;
+}
+
+.red-left {
+	border-bottom: 60px solid red;
+}
+
+.red-right {
+	border-top: 60px solid red;
+}
+
+.green-left {
+	border-left: 50px solid greenyellow;
+}
+
+.green-right {
+	border-right: 50px solid greenyellow;
+}
+
+.yellow-left {
+	border-bottom: 40px solid yellow; 
+	border-left: 40px solid yellow;
+}
+
+.yellow-right {
+	border-bottom: 40px solid yellow; 
+	border-right: 40px solid yellow;
+}
+
+.blue-left {
+	border-top: 40px solid blue; 
+	border-left: 40px solid blue;
+}
+
+.blue-right {
+	border-top: 40px solid blue; 
+	border-right: 40px solid blue;
+}
