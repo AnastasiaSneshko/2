@@ -136,6 +136,7 @@ body {
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 15px;
+  font-weight: 600;
 }
 
 .form_text {
