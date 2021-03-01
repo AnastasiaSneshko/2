@@ -1,0 +1,240 @@
+/*Base*/
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.wrapper {
+  width: 100%;
+  width: 1110px;
+  margin: 0 auto;
+}
+
+/*Header*/
+.header_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+#search {
+  max-height: 20px;
+}
+#menu {
+  max-height: 14px;
+}
+
+/*About*/
+.about_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.about_text {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.about_icon i {
+  color: black;
+  padding-left: 10px;
+}
+
+/*Card*/
+.card_text {
+  font-size: 18px;
+  line-height: 28px;
+  padding-top: 40px;
+}
+
+/*Explore*/
+.explore_cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.explore_description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.explore_text {
+  width: 45%;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.explore_button {
+  width: 160px;
+  height: 50px;
+  background-color: #ef8e70;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+/*Awwards*/
+.awwards_rowtop{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.awwards_rowbottom {
+  display: flex;
+  justify-content: flex-end;
+}
+.awwards_description {
+  display: flex;
+}
+
+.description_head {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.description_form {
+  width: 230px;
+  margin-left: 95px;
+}
+
+.form_title {
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.form_text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.description_number {
+  font-size: 18px;
+  margin-left: 55px;
+}
+
+.text-form {
+  width: 455px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/*Clients*/
+.clients {
+  background-color: #fafafa;
+}
+
+.client_description {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.client_head {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.client_title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 4px;
+  padding-bottom: 15px;
+}
+
+.client_text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.client_icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Footer*/
+.footer {
+  background-color: #515151;
+}
+
+.footer_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #979797;
+  margin: 60px 0;
+}
+
+.info_text p {
+  display: inline-block;
+  padding: 0 25px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.info_buttons {
+  display: flex;
+  align-items: center;
+}
+
+.footer_input {
+ width: 155px;
+ height: 40px;
+ border: transparent;
+ font-family: 'Fira Sans', sans-serif;
+ font-size: 18px;
+ padding-left: 15px;
+ outline: none;
+}
+
+.footer_button {
+  width: 100px;
+  height: 42px;
+  background-color: #c6b393;
+  border: transparent;
+  outline: none;
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.footer_contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts_text p {
+  display: inline-block;
+  padding-right: 50px;
+  color: #979797;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contacts_icon i {
+  color: #979797;
+  margin-left: 15px;
+}

@@ -1,0 +1,12 @@
+p {
+    font-size: 30px;
+}
+
+ul, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    font-size: 20px;
+}
