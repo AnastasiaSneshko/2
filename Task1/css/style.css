@@ -1,0 +1,130 @@
+/*Base*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: grid;
+  width: 1440px;
+  height: 1276px;
+  background-color: #F6F7FA;
+  grid-template-columns: repeat(2, 660px);
+  grid-template-rows: repeat(5, 184px);
+  gap: 64px 24px;
+  justify-content: center;
+  align-content: center;
+}
+
+/*Theme*/
+.dark {
+  position: relative;
+  width: 660px;
+  height: 184px;
+  background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+  border-radius: 16px;
+}
+
+.light {
+  position: relative;
+  width: 660px;
+  height: 184px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+/*Text colour*/
+.head {
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.white {
+  color: white;
+}
+
+.red{
+  color: #AD4328;
+}
+
+/*Image position*/
+.one {
+  position: absolute;
+  z-index: 2;
+  right: 50px;
+  bottom: -30px;
+}
+
+.two {
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  bottom: -50px;
+}
+
+.three {
+  position: absolute;
+  z-index: 2;
+  right: 50px;
+  bottom: -25px;
+}
+
+.four {
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  bottom: -55px;
+}
+
+
+.five {
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  bottom: -70px;
+}
+
+
+.six {
+  position: absolute;
+  z-index: 2;
+  right: -30px;
+  bottom: -48px;
+}
+
+.seven {
+  position: absolute;
+  z-index: 2;
+  right: 50px;
+  bottom: -63px;
+}
+
+.eight {
+  position: absolute;
+  z-index: 2;
+  right: 65px;
+  bottom: -30px;
+}
+
+.nine {
+  position: absolute;
+  z-index: 2;
+  right: 40px;
+  bottom: -55px;
+}
+
+.ten {
+  position: absolute;
+  z-index: 2;
+  right: 40px;
+  bottom: -70px;
+}
