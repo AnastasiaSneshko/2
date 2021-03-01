@@ -59,7 +59,6 @@ body {
 
 .cards_item {
   position: relative;
-  width: 33%;
 }
 
 .cards_item:hover .item_button {
