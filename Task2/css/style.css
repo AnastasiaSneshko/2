@@ -57,6 +57,30 @@ body {
   justify-content: space-between;
 }
 
+.cards_item {
+  position: relative;
+  width: 33%;
+}
+
+.cards_item:hover .item_button {
+  opacity: 1;
+}
+
+.item_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  transform: translate3d(-50%, -50%, 0);
+  opacity: 0;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.item_image img {
+  display: block;
+}
+
 .explore_description {
   display: flex;
   justify-content: space-between;
@@ -84,16 +108,15 @@ body {
 }
 
 /*Awwards*/
-.awwards_rowtop{
+.awwards_row{
   display: flex;
   justify-content: space-between;
+}
+
+.top {
   margin-bottom: 60px;
 }
 
-.awwards_rowbottom {
-  display: flex;
-  justify-content: flex-end;
-}
 .awwards_description {
   display: flex;
 }
@@ -219,6 +242,7 @@ body {
   font-size: 14px;
   letter-spacing: 4px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .footer_contacts {
