@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: brown;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: aquamarine;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: red;
+}
+
+nav {
+  position: fixed;
+  top: 100px;
+}
+
+nav ul {
+  background-color: gray;
+}
+
+div {
+  background-color: aquamarine;
+  color: gray;
+  font-family: sans-serif, Arial;
+  font-size: 30px;
+}
+
+p {
+  color: gray;
+}
+
+p:hover {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
