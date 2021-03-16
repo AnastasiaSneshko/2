@@ -1,0 +1,35 @@
+{
+  "name": "exampleapp",
+  "version": "0.0.1",
+  "description": "My first project with Gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "scss"
+  ],
+  "author": "Anastasia",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiaSneshko/Sk_training.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnastasiaSneshko/Sk_training/issues"
+  },
+  "homepage": "https://github.com/AnastasiaSneshko/Sk_training#readme"
+}
